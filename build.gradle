@@ -78,6 +78,8 @@ dependencies {
 	implementation("io.jsonwebtoken:jjwt:0.9.1")
 //mapper
 	compile("ma.glasnost.orika:orika-core:1.5.2")
+
+	compile("org.apache.commons:commons-email:1.5")
 }
 
 test {
